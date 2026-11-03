@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>AddPatient</servlet-name>
+        <servlet-class>com.hospital.AddPatientServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddPatient</servlet-name>
+        <url-pattern>/AddPatientServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewPatient</servlet-name>
+        <servlet-class>com.hospital.ViewPatientServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewPatient</servlet-name>
+        <url-pattern>/ViewPatientServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdatePatient</servlet-name>
+        <servlet-class>com.hospital.UpdatePatientServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdatePatient</servlet-name>
+        <url-pattern>/UpdatePatientServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeletePatient</servlet-name>
+        <servlet-class>com.hospital.DeletePatientServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeletePatient</servlet-name>
+        <url-pattern>/DeletePatientServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
